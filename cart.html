@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechMart - Shopping Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="loadCart()">
+
+<header>
+    <h1>🛒 TechMart Shopping Cart</h1>
+    <p>⚡ Secure & Fast Checkout</p>
+</header>
+
+<nav>
+    <a href="index.html">🏠 Home</a>
+    <a href="cart.html">🛒 Cart</a>
+</nav>
+
+<div class="cart-box">
+
+    <h2>🛍️ Your Cart Items</h2>
+
+    <div id="cartItems"></div>
+
+    <hr style="margin:20px 0;">
+
+    <h2>
+        💰 Total Amount:
+        <span id="total">0</span>
+    </h2>
+
+    <br>
+
+    <div style="text-align:center;">
+        <button onclick="placeOrder()">
+            ✅ Place Order
+        </button>
+    </div>
+
+</div>
+
+<div style="text-align:center;padding:20px;">
+    <h3>🔒 Safe & Secure Shopping</h3>
+    <p>🚚 Fast Delivery | 💳 Secure Payments | ⭐ Trusted Store</p>
+</div>
+
+<footer>
+    <p>© 2026 TechMart Store</p>
+    <p>🛒 Thank You For Shopping With Us</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
